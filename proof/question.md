@@ -25,7 +25,7 @@ c(v)=(g(v),A(v)),
 where $`A(v)`$ is its relative least-area invariant; [S], Definition 4.7, pp.10–11. For a vertex $`v`$, write $`N(v)`$ for its set of neighbours and
 
 ```math
-L_c(v)=\{u\in N(v):c(u)<c(v)\}.
+L_c(v)=\{u\in N(v):c(u)\lt c(v)\}.
 ```
 
 Condition (F) says that $`L_c(v)`$ is finite for every vertex. Remark 1.1, p.2, states that under (F), Theorem B reduces to the cited Morse lemma [S, reference 21, Lemma 2.3], together with the paper's heredity lemma. The closing paragraph of the Introduction, also p.2, leaves (F) as its one open question and identifies the equivalent question about infinitely many neighbours of strictly smaller genus.
@@ -39,13 +39,13 @@ L_c(v)=L_g(v)\cup L_A(v),
 where
 
 ```math
-L_g(v)=\{u\in N(v):g(u)<g(v)\},
+L_g(v)=\{u\in N(v):g(u)\lt g(v)\},
 ```
 
 and
 
 ```math
-L_A(v)=\{u\in N(v):g(u)=g(v),\ A(u)<A(v)\}.
+L_A(v)=\{u\in N(v):g(u)=g(v),\ A(u)\lt A(v)\}.
 ```
 
 Lemma 4.8(i), p.11, says that for every fixed genus $`h`$ and every $`a>0`$, the entire set of vertices satisfying $`g(u)=h`$ and $`A(u)\le a`$ is finite. In particular $`L_A(v)`$ is finite. Thus, using that stated lemma, (F) is equivalent to finiteness of $`L_g(v)`$ for every $`v`$.

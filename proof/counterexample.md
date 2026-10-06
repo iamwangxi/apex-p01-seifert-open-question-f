@@ -23,7 +23,7 @@ Choose the joining bands using disjoint representatives of $`(R,R_0)`$ and $`(H,
 Lemma 5.1 with $`F=Q`$ proves that the $`u_n`$ remain pairwise distinct after the connected sum. Each differs from $`v`$ by genus. Thus there are infinitely many distinct adjacent vertices of smaller genus. Whatever their relative areas are,
 
 ```math
-c(u_n)<c(v),
+c(u_n)\lt c(v),
 ```
 
 because the first coordinates satisfy $`2<3`$. This directly refutes (F). $`\square`$
